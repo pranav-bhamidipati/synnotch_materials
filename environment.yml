@@ -1,0 +1,30 @@
+name: synnotch-materials
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy>=1.26
+  - scipy>=1.11
+  - pandas>=2.1
+  - matplotlib>=3.8
+  - umap-learn>=0.5
+  - scanpy>=1.9
+  - h5py>=3.10
+  - seaborn=0.12
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - pytorch::cpuonly
+  - conda-forge::scvi-tools>=0.13
+  - conda-forge::pyarrow
+  - pip
+  - pip:
+    - black
+    - ipython
+    - fastapi
+    - jupyterlab
+    - ipykernel
+    - ipywidgets
+    - nodejs
+    - ipympl
